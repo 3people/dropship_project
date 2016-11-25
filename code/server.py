@@ -4,7 +4,7 @@ import os
 
 def printboard() :
     os.system("clear")
-    print("   "+"".join(str(n+1).rjust(3) for n in range(SIZE)))
+    print("  "+"".join(str(n+1).rjust(3) for n in range(SIZE)))
     for i in range(SIZE):
         print(str(i+1).rjust(2), end = " ")
         for j in range(SIZE):
