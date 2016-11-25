@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 
 class Board:
@@ -62,7 +61,7 @@ class Board:
             return True
         else :
             return False
-=======
+
 class Board:
     def __init__(self):
         self.board = [['+' for _ in range(20)] for _ in range(20)]
@@ -93,24 +92,19 @@ class Board:
                 print("player2 win")
                 break;
             self.printboard()
->>>>>>> master
 
     def check(self, x, y, mark):
         a = []
         for n in range(1,5):
             a.append(eval("self.check"+str(n)+"("+str(x)+","+str(y)+",\""+mark+"\")"))
-<<<<<<< HEAD
         if 5 in a or (mark == "○" and True in [x >= 6 for x in a]):
-=======
-        if 5 in a:
->>>>>>> master
-            return True
-        else :
-            return False
+            if 5 in a:
+                return True
+            else :
+                return False
 
     def check1(self, x, y, mark, d = 0):
         """가로방향"""
-<<<<<<< HEAD
         if x in range(self.SIZE) and y in range(self.SIZE):
             if d == 0:
                 return 1 + self.check1(x-1, y, mark, 1) + self.check1(x+1, y, mark, -1)
@@ -180,7 +174,6 @@ class Board:
                     return 0
         else :
             return 0
-=======
         if d == 0:
             return 1 + self.check1(x-1, y, mark, 1) + self.check1(x+1, y, mark, -1)
         elif d == 1:
@@ -238,6 +231,5 @@ class Board:
                 return 1 + self.check4(x+1, y-1, mark, -1)
             else :
                 return 0
->>>>>>> master
 
 b = Board()
