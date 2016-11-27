@@ -28,3 +28,7 @@
 ## License
 
 * [License information](https://github.com/3people/dropship_project/blob/master/LICENSE)
+
+## Thanks to
+
+* Yang
