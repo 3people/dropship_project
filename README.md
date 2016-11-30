@@ -31,7 +31,3 @@
 
 ## Thanks to
 
-<<<<<<< HEAD
-* Yang
-=======
->>>>>>> master
