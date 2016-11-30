@@ -23,6 +23,7 @@ class Board:
                 print(str(self.board[x][y]).center(3), end="" if y < self.SIZE-1 else "\n")
 
     def startgame(self):
+<<<<<<< Updated upstream
         self.board[self.SIZE//2][self.SIZE//2] = "●"
         self.printboard()
         while True:
@@ -61,6 +62,55 @@ class Board:
             return True
         else :
             return False
+=======
+        self.printboard()
+        while True:
+            x = int(input("player1의 x좌표를 입력하시오 : "))
+            y = int(input("player1의 y좌표를 입력하시오 : "))
+            self.board[x-1][y-1] = "●"
+            self.printboard()
+            if self.check(x-1,y-1,"●"):
+                print("player1 win")
+                break;
+            x = int(input("player2의 x좌표를 입력하시오 : "))
+            y = int(input("player2의 y좌표를 입력하시오 : "))
+            self.board[x-1][y-1] = "○"
+            if self.check(x-1,y-1,"○"):
+                print("player2 win")
+                break;
+            self.printboard()
+>>>>>>> Stashed changes
+
+class Board:
+    def __init__(self):
+        self.board = [['+' for _ in range(20)] for _ in range(20)]
+        self.startgame()
+
+
+    def printboard(self) :
+        print("    1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20")
+        for x in range(20):
+            print(str(x+1).rjust(2), end = " ")
+            for y in range(20):
+                print(str(self.board[x][y]).rjust(2), end=" " if y < 19 else "\n")
+
+    def startgame(self):
+        self.printboard()
+        while True:
+            x = int(input("player1의 x좌표를 입력하시오 : "))
+            y = int(input("player1의 y좌표를 입력하시오 : "))
+            self.board[x-1][y-1] = "●"
+            self.printboard()
+            if self.check(x-1,y-1,"●"):
+                print("player1 win")
+                break;
+            x = int(input("player2의 x좌표를 입력하시오 : "))
+            y = int(input("player2의 y좌표를 입력하시오 : "))
+            self.board[x-1][y-1] = "○"
+            if self.check(x-1,y-1,"○"):
+                print("player2 win")
+                break;
+            self.printboard()
 
 class Board:
     def __init__(self):
@@ -97,14 +147,31 @@ class Board:
         a = []
         for n in range(1,5):
             a.append(eval("self.check"+str(n)+"("+str(x)+","+str(y)+",\""+mark+"\")"))
+<<<<<<< Updated upstream
         if 5 in a or (mark == "○" and True in [x >= 6 for x in a]):
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if 5 in a:
+>>>>>>> Stashed changes
+            return True
+        else :
+            return False
+=======
+=======
+>>>>>>> master
             if 5 in a:
                 return True
             else :
                 return False
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> master
 
     def check1(self, x, y, mark, d = 0):
         """가로방향"""
+<<<<<<< Updated upstream
         if x in range(self.SIZE) and y in range(self.SIZE):
             if d == 0:
                 return 1 + self.check1(x-1, y, mark, 1) + self.check1(x+1, y, mark, -1)
@@ -174,6 +241,13 @@ class Board:
                     return 0
         else :
             return 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
+=======
+>>>>>>> master
         if d == 0:
             return 1 + self.check1(x-1, y, mark, 1) + self.check1(x+1, y, mark, -1)
         elif d == 1:
@@ -231,5 +305,12 @@ class Board:
                 return 1 + self.check4(x+1, y-1, mark, -1)
             else :
                 return 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+=======
+>>>>>>> master
+=======
+>>>>>>> master
 
 b = Board()
