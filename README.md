@@ -17,11 +17,11 @@
 
 **2**
 
-* GUI
+* make server, client
 
 **3**
 
-* make sever
+* GUI
 
 ## Known Issues
 
