@@ -31,7 +31,7 @@
 
 ## License
 
-* [License information](https://github.com/3people/dropship_project/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Thanks to
 
