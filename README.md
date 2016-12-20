@@ -3,11 +3,10 @@ Dmok
 ## Introduce Team
 
 Team name : Dropship
-Team members : 
 
 ![dropship](https://cloud.githubusercontent.com/assets/22341389/21349560/ecf879f6-c6f5-11e6-8e22-69b25849fca7.gif)
 
-
+Team members : [이세명] (https://3people.github.io), [이정규] (https://JeongGod.github.io), [최준] (https://prodroper.github.io) 
 
 ## DESCRIPTION
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
