@@ -9,11 +9,20 @@ Dmok is simple board game based on omok(gomoku). We are aiming to make real time
 
 * Real time game
 * Satisfies world rules
+* Use Python
 
 ## HOW TO PLAY
 
-* compile Dmok.py on terminal(MacOS)
-* input coordinate 
+* Run two terminal
+* Compile server.py and input player name
+```
+python3 server.py
+```
+* Compile client.py and input player name
+```
+python3 client.py
+```
+* Input coordinates
 
 ## Aim
 
