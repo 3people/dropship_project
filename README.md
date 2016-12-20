@@ -10,7 +10,7 @@ Team members : [이세명] (https://github.com/3people), [이정규] (https://gi
 ## DESCRIPTION
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Rules](https://img.shields.io/badge/Rules-Wiki-red.svg)](https://en.wikipedia.org/wiki/Gomoku#Official_rules)
-[![Language](https://img.shields.io/badge/language-Python-blue.svg)](https://www.python.org/)
+[![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://www.python.org/)
 
 Dmok is simple board game based on omok(gomoku). We are aiming to make real time omok(gomoku) game. Furthermore we are planning to make it with GUI.
 
