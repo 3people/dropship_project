@@ -6,6 +6,8 @@ Dmok
 * Dmok is simple board game 
 * [Rules](https://en.wikipedia.org/wiki/Gomoku#Official_rules).
 
+## 
+
 ## HOW TO PLAY
 
 * compile Dmok.py on terminal(MacOS)
