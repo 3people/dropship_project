@@ -1,14 +1,14 @@
-Dropship_gomoku
+Dmok
 ===============================================================
 
 ## DESCRIPTION
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-* Dropship_gomoku is simple board game 
+* Dmok is simple board game 
 * [Rules](https://en.wikipedia.org/wiki/Gomoku#Official_rules).
 
 ## HOW TO PLAY
 
-* compile dropship_gomoku.py on terminal(MacOS)
+* compile Dmok.py on terminal(MacOS)
 * input coordinate 
 
 ## Aim
