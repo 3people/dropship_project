@@ -17,7 +17,8 @@ Run two terminal
 
 **Server**
 
-![server](https://cloud.githubusercontent.com/assets/22341389/21348821/341bbfc2-c6f2-11e6-9d46-723d82eee08b.gif)
+![server](https://cloud.githubusercontent.com/assets/22341389/21348901/9a1c7a28-c6f2-11e6-920c-5272429bb896.gif)
+
 
 **Client**
 ```
