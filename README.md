@@ -8,7 +8,7 @@ Team name : Dropship
 
 Team members : [이세명] (https://github.com/3people), [이정규] (https://github.com/JeongGod), [최준] (https://github.com/prodroper)
 ## DESCRIPTION
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Rules](https://img.shields.io/badge/Rules-Wiki-red.svg)](https://en.wikipedia.org/wiki/Gomoku#Official_rules)
 [![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://www.python.org/)
 
