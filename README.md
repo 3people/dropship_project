@@ -3,7 +3,7 @@ Dmok
 
 ## DESCRIPTION
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Rules](https://img.shields.io/badge/rules-blue.svg)](https://en.wikipedia.org/wiki/Gomoku#Official_rules)
+[![Rules](https://img.shields.io/badge/Rules-explanation-blue.svg)](https://en.wikipedia.org/wiki/Gomoku#Official_rules)
 * Dmok is simple board game based on omok(gomoku). We are aiming to make real time omok(gomoku) game. Furthermore we are planning to make it with GUI.
 * [Rules](https://en.wikipedia.org/wiki/Gomoku#Official_rules).
 
