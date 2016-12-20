@@ -1,6 +1,5 @@
 Dmok
 ===============================================================
-
 ## DESCRIPTION
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Rules](https://img.shields.io/badge/Rules-Wiki-blue.svg)](https://en.wikipedia.org/wiki/Gomoku#Official_rules)
