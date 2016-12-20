@@ -2,6 +2,13 @@ Dmok
 ===============================================================
 ## Introduce Team
 
+Team name : Dropship
+Team members : 
+
+![dropship](https://cloud.githubusercontent.com/assets/22341389/21349560/ecf879f6-c6f5-11e6-8e22-69b25849fca7.gif)
+
+
+
 ## DESCRIPTION
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Rules](https://img.shields.io/badge/Rules-Wiki-blue.svg)](https://en.wikipedia.org/wiki/Gomoku#Official_rules)
