@@ -17,13 +17,15 @@ Run two terminal
 
 **Server**
 
+
 ![server](https://cloud.githubusercontent.com/assets/22341389/21348901/9a1c7a28-c6f2-11e6-920c-5272429bb896.gif)
 
 
 **Client**
-```
-python3 client.py
-```
+
+
+![client](https://cloud.githubusercontent.com/assets/22341389/21349061/4ca0971a-c6f3-11e6-8fe6-d70bc15a068e.gif)
+
 
 ## AIM
 
