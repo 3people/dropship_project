@@ -1,10 +1,6 @@
 import os
 
 class Board:
-    """
-    docstring for Board.\n
-    made by yangjoonhyuk\n
-    """
 
     SIZE = 15
 
@@ -14,7 +10,9 @@ class Board:
         self.player2 = input("player2의 이름을 입력하시오 : ")
         self.startgame()
 
-    def printboard(self) :
+    def printboard(self):
+        """Print board
+           """
         os.system("clear")
         print("   "+"".join(str(x+1).center(3) for x in range(self.SIZE)))
         for x in range(self.SIZE):
@@ -72,7 +70,8 @@ class Board:
             return False
 
     def check1(self, x, y, mark, d = 0):
-        """가로방향"""
+         """Check row direction.
+            """
         if x in range(self.SIZE) and y in range(self.SIZE):
             if d == 0:
                 return 1 + self.check1(x-1, y, mark, 1) + self.check1(x+1, y, mark, -1)
@@ -90,7 +89,8 @@ class Board:
             return 0
 
     def check2(self, x, y, mark, d = 0):
-        """세로방향"""
+         """Check column diretion.
+            """
         if x in range(self.SIZE) and y in range(self.SIZE):
             if d == 0:
                 return 1 + self.check2(x, y+1, mark, 1) + self.check2(x, y-1, mark, -1)
@@ -108,7 +108,8 @@ class Board:
             return 0
 
     def check3(self, x, y, mark, d = 0):
-        """\\대각선모양"""
+         """Check left diagonal direction.
+            """
         if x in range(self.SIZE) and y in range(self.SIZE):
             if d == 0:
                 return 1 + self.check3(x-1, y-1, mark, 1) + self.check3(x+1, y+1, mark, -1)
@@ -126,7 +127,8 @@ class Board:
             return 0
 
     def check4(self, x, y, mark, d = 0):
-        """//대각선모양"""
+         """Check right diagonal direction.
+            """
         if x in range(self.SIZE) and y in range(self.SIZE):
             if d == 0:
                 return 1 + self.check4(x-1, y+1, mark, 1) + self.check4(x+1, y-1, mark, -1)
