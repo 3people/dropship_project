@@ -24,20 +24,15 @@ python3 client.py
 ```
 * Input coordinates
 
-## Aim
+## AIM
 
-**1**
-
-* make game operates on terminal by input (x,y)-coordinate
-* print stones
-
-**2**
-
-* make server, client
-
-**3**
-
-* GUI
+* Mid-presentation
+  * make game operates on terminal by input (x,y)-coordinate
+  * print stones
+* Final-presentation
+  * make server, client
+* Future Plans
+  * GUI
 
 ## KNOWN ISSUES
 
