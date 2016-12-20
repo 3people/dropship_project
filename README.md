@@ -1,9 +1,12 @@
-## dropship_gomoku  
+Dropship_gomoku
+===============================================================
 
-* **dropship_gomoku** is simple board game 
+## DESCRIPTION
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+* Dropship_gomoku is simple board game 
 * [Rules](https://en.wikipedia.org/wiki/Gomoku#Official_rules).
 
-## How to play
+## HOW TO PLAY
 
 * compile dropship_gomoku.py on terminal(MacOS)
 * input coordinate 
@@ -23,15 +26,10 @@
 
 * GUI
 
-## Known Issues
+## KNOWN ISSUES
 
 * If you discover any bugs, feel free to create an issue on GitHub fork and send us a pull request.
-
 * [Issues List](https://github.com/3people/dropship_project).
-
-## License
-
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Thanks to
 
