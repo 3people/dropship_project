@@ -33,6 +33,10 @@ Run two terminal
 ![client](https://cloud.githubusercontent.com/assets/22341389/21349061/4ca0971a-c6f3-11e6-8fe6-d70bc15a068e.gif)
 
 
+**Preview**
+
+<img width="346" alt="2016-12-20 9 23 53" src="https://cloud.githubusercontent.com/assets/22341389/21350461/ae5561dc-c6fa-11e6-963d-71a3a647a10b.png">
+
 ## AIM
 
 * Mid-presentation
