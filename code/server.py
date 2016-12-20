@@ -2,23 +2,6 @@ import socket
 import os
 from functions import *
 
-# from dropship_gomoku import Gomoku
-
-def printboard() :
-    os.system("clear")
-    print("  "+"".join(str(n+1).rjust(3) for n in range(SIZE)))
-    for i in range(SIZE):
-        print(str(i+1).rjust(2), end = " ")
-        for j in range(SIZE):
-            print(str(BOARD[i][j]).rjust(2), end=" " if j < SIZE-1 else "\n")
-
-SIZE = 15
-BOARD = [['+' for _ in range(SIZE)] for _ in range(SIZE)]
-BOARD[SIZE//2][SIZE//2] = "●"
-
-HOST = '127.0.0.1'
-PORT = 50007
->>>>>>> master
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((HOST,PORT))
 name = input("이름을 입력해주세요 : ")
