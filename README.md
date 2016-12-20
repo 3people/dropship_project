@@ -40,10 +40,10 @@ Run two terminal
 ## AIM
 
 * Mid-presentation
-  * make game operates on terminal by input (x,y)-coordinate
-  * print stones
+  * Make game operates on terminal by input (x,y)-coordinate
+  * Print board
 * Final-presentation
-  * make server, client
+  * Make server, client
 * Future Plans
   * GUI
 
