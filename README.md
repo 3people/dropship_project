@@ -16,9 +16,9 @@ Dmok is simple board game based on omok(gomoku). We are aiming to make real time
 Run two terminal
 
 **Server**
-```
-python3 server.py
-```
+
+![server](https://cloud.githubusercontent.com/assets/22341389/21348821/341bbfc2-c6f2-11e6-9d46-723d82eee08b.gif)
+
 **Client**
 ```
 python3 client.py
