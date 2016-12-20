@@ -1,5 +1,7 @@
- """Contain method and attribute that are common to both server and client.
-    """
+"""
+Contain method and attribute that are common to both server and client.
+
+"""
 import os
 
 SIZE = 15
@@ -10,8 +12,13 @@ HOST = '127.0.0.1'
 PORT = 50007
 
 def printboard(board, size) :
-     """Print board
-        """
+    """ Print board
+
+    :param board: make board.
+    :param human: determine board size.
+
+    :returns void: Nothing is returned.
+    """
     os.system("clear")
     print("  "+"".join(str(n+1).rjust(3) for n in range(size)))
     for i in range(size):
@@ -20,9 +27,12 @@ def printboard(board, size) :
             print(str(board[i][j]).rjust(2), end=" " if j < size-1 else "\n")
 
 def getcor(name, mark, board, size) :
-     """Get coordinate from each players.
-        Make sure it is available coordinates.
-        """
+    """ Get coordinate from each players.
+    Make sure it is available coordinates.
+
+    :param name: player name.
+    :returns: returns (y,x) coordinates.
+    """
     while True:
         x = input(name+"의 x좌표를 입력하시오 : ")
         y = input(name+"의 y좌표를 입력하시오 : ")
