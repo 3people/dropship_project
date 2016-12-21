@@ -19,7 +19,6 @@ Dmok is simple board game based on omok(gomoku). We are aiming to make real time
 
 ## HOW TO PLAY
 
-Run two terminal
 
 **Server**
 
